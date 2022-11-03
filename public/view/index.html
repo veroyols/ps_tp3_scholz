@@ -4,41 +4,34 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Document</title>
-        <link rel="stylesheet" href="../css/style.css"> 
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="shortcut icon" href="../img/favicon.png"> 
     </head>
     <body>
         <header>
-            <section id="header__section">
-                <div class="section_logo">
-                    <img class="logo" src="../img/logo.png"/>
-                </div>
-                <nav>
-                    <ul id="ul__nav"> 
-                        <li>
-                            <input id="search" type="Ingrese un producto..." placeholder="Ingrese el nombre del producto que desea buscar." />
-                        </li>
-                        <li><a>Cart</a></li>
-                        <li><a>Config</a></li>
-
-                    </ul>
-                </nav>
-            </section>
+            <nav>
+                <img id="logo" src="../img/logo.png"/><a class="elem_nav" href="../view/index.html">Inicio</a>
+                <input id="search" class="elem_nav" type="Ingrese..." placeholder="placeholder"/>
+                <a class="elem_nav" href="../view/user.html">User</a>
+                <a class="elem_nav" href="../view/cart.html">Cart</a>
+                <a class="elem_nav" href="../view/config.html">Config</a>
+                </ul>
+            </nav>
         </header>
         <main> 
-            <h1>
-                    Proyecto de Software(spa)
-            </h1>
-
+            <h1>Index</h1>
             <div id="root">
             <!-- SPA: Renderiza cuando se carga la pagina -->
             </div>
         </main>
-
-        
-
         <script type="module" src="../js/init.js"></script>
+        <footer>
+            <h4>un footer</h4>
+        </footer>
     </body>
-    <footer>
-        <h4>un footer</h4>
-    </footer>
 </html>

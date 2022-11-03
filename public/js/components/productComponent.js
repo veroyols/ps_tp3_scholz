@@ -1,7 +1,7 @@
 export const productComponent = (json) => `
-    <div class="product">
-        <img class="logo" src="../img/arbol.png">
-        <h3 class="title">${json.nombre}</h3>
+    <article class="product">
+        <img src="https://drive.google.com/uc?export=download&id=${json.image}">
+        <h3>${json.nombre}</h3>
         <p> ${json.descripcion} ($${json.precio})</p>
-        </div>
+        </article>
 `
