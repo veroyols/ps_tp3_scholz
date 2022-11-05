@@ -3,34 +3,42 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Document</title>
-        <link rel="stylesheet" href="../css/style.css"> 
+        <title>simpl.</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="../css/style_nav.css">
         <link rel="shortcut icon" href="../img/favicon.png"> 
-
     </head>
     <body>
-        <header>
-            <section id="header__section">
-                <div class="section_logo">
-                    <img class="logo" src="../img/logo.png"/>
-                </div>
-                <nav>
-                    <ul id="ul__nav"> 
-                        <li><a href="../view/index.html">Inicio</a></li>
-                        <li><input id="search" type="Ingrese..." placeholder="placeholder"/></li>
-                        <li><a href="../view/user.html">User</a></li>
-                        <li><a href="../view/cart.html">Cart</a></li>
-                        <li><a href="../view/config.html">Config</a></li>
-                    </ul>
-                </nav>
-            </section>
+        <header class="header">
+            <nav class="nav">
+                <div class="logo">simpl.</div>
+                <input class="search" type="text" placeholder="Ingrese el nombre de un producto..."/>
+                <ul class="nav-menu">
+                    <li class="nav-menu-item"><a href="../view/index.html" class="nav-menu-link nav-link">Index</a></li>
+                    <li class="nav-menu-item"><a href="#" class="nav-menu-link nav-link">Search</a></li>
+                    <li class="nav-menu-item"><a href="../view/cart.html" class="nav-menu-link nav-link">Cart</a></li>
+                    <li class="nav-menu-item"><a href="../view/config.html" class="nav-menu-link nav-link">Config</a></li>
+                </ul>
+            </nav>
         </header>
         <main> 
-            <h1>Cart</h1>
+            <h2>CART</h2>
+            <section id="root">
+            <!-- SPA: Renderiza cuando se carga la pagina -->
+            </section>
         </main>
-        <script type="module" src="../container/cart.js"></script>
+        
+        <script type="module" src="../js/container/user.js"></script>
         <footer>
-            <h4>un footer</h4>
+            <ul class="footer">
+                <li class="footer-menu-link">simpl.®</li>
+                <li class="footer-menu-link"><a class="footer-link" href= "http://www.facebook.com" target="_blank"><img src="../img/fbk.svg"/></a></li>
+                <li class="footer-menu-link"><a class="footer-link" href="http://www.instagram.com" target="_blank"><img src="../img/ig.svg"/></a>
+                <li class="footer-menu-link"><a class="footer-link" href="http://www.twitter.com" target="_blank"><img src="../img/twt.svg"/></a>
+                <li class="footer-menu-link"><a class="footer-link" href="mailto:simpl@gmail.com">Contact us</a></li>
+            </ul>
         </footer>
     </body>
 </html>

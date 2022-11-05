@@ -1,12 +1,5 @@
 # ps_tp3_scholz
 Trabajo Práctico 3 | User Interface
-Una tienda de comercio contrata su servicio para desarrollar el ecommerce de la tienda,
-dicha web debe permitir a los clientes registrarse y llevar a cabo sus compras, asi como
-también permitir que el personal del local pueda ver y gestionar las ventas.
-La entrega de esta app se realiza en tres etapas:
-1. Entrega de prototipo con lógica de base de datos (TP 1)
-2. Entrega de Backend con la lógica de negocios (TP 2)
-3. Entrega de Página web (TP 3)
 
 Por lo tanto, Los criterios de aceptación son:
 1. Interfaz web con el listado de los productos disponibles.

@@ -1,7 +1,10 @@
 export const productComponent = (json) => `
     <article class="product">
-        <img src="https://drive.google.com/uc?export=download&id=${json.image}">
-        <h3>${json.nombre}</h3>
-        <p> ${json.descripcion} ($${json.precio})</p>
+        <img class="product-img" src="https://drive.google.com/uc?export=download&id=${json.image}">
+        <h3 class="desc">${json.nombre}</h3>
+        <p class="desc"> ${json.descripcion} ($${json.precio})</p>
         </article>
+`
+export const listProduct = (json) => `
+    <li class="itemProduct">${json.nombre}</li>
 `
