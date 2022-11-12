@@ -2,8 +2,8 @@
 Trabajo Práctico 3 | User Interface
 
 Por lo tanto, Los criterios de aceptación son:
-1. Interfaz web con el listado de los productos disponibles.
-2. Se debe visualizar toda la información que un producto posee.
+1. Interfaz web con el listado de los productos disponibles. ok
+2. Se debe visualizar toda la información que un producto posee. 
 3. Se debe permitir agregar, actualizar o eliminar un producto a un carrito.
 4. Se debe poder concretar una venta.
 5. Se debe poder buscar por nombre de producto y poder ordenar por precio.

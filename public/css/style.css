@@ -1,12 +1,5 @@
-/*variables*/
-:root {
-    --primary:  rgba(35, 35, 35, 0.3);
-    --secondary: #364552; 
-    --on-primary: #000504;
-    --on-secondary: #fafafa;
-}
 
-
+/*
 .product img {
     width: 400px;
 }

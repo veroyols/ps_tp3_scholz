@@ -5,6 +5,3 @@ export const productComponent = (json) => `
         <p class="desc"> ${json.descripcion} ($${json.precio})</p>
         </article>
 `
-export const listProduct = (json) => `
-    <li class="itemProduct">${json.nombre}</li>
-`

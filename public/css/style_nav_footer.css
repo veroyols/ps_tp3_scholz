@@ -2,17 +2,18 @@
 :root {
     --primary:  rgba(35, 35, 35, 0.3);
     --secondary: #364552; 
-    --secondary2: rgb(49, 63, 75); 
+    --secondary2: #313f4b; 
     --on-primary: #000504;
     --on-secondary: rgb(250, 250, 250);
-    --on-secondary2: rgb(240, 233, 233);}
+    --on-secondary2: rgb(240, 233, 233);
+}
 *{
     margin: 0;
     box-sizing: border-box;
 }
 html {
     display: flex;
-    border: 5px dashed red;
+    border: 1px dashed red;
     width: 1920px;
     height: 1080px;
 }  
@@ -94,32 +95,6 @@ body {
     border-style: none;
     outline-style: none;
 }
-#root {
-    display: flex;
-    color: var(--secondary2);
-    margin-top: 50px;
-}
-.product {
-    background-color: var(--primary);
-    height: 700px;
-    margin: 50px 30px;
-    border-radius: 0.3rem;
-    padding: 30px;
-    justify-content: space-evenly;
-    box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.3);
-    align-items: center;
-}
-.product-img {
-    height: 600px;
-    padding-bottom: 10px;
-}
-.product:hover {
-    cursor:pointer;
-    transition: 1s;
-    margin: 100px 50px;
-    height: 700px;
-    contain: 600px;
-}
 .footer {  
     margin: 0;
     padding-left: 0;
@@ -144,8 +119,14 @@ body {
 .footer-link {
     text-decoration: none;
     color: var(--on-secondary);
-}.footer-link:hover{
+}
+.footer-link:hover{
     font-size-adjust: 20px;
     transition: 1s;
     font-size: 25px;
+}
+#busqueda{
+    display: flex;
+    flex-direction: column-reverse;
+    max-height: 25px;
 }
