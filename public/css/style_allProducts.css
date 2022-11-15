@@ -28,9 +28,14 @@
     padding-bottom: 10px;
 }
 .product:hover {
-    cursor:pointer;
+/*    cursor:pointer;*/
     transition: 1s;
     margin: 100px 50px;
     height: 700px;
     contain: 600px;
 }
+.desc {
+    display:inline;
+}
+
+

@@ -11,8 +11,8 @@
         <!-- css template-->
         <link rel="stylesheet" href="../css/normalize.css">
         <link rel="stylesheet" href="../css/style_nav_footer.css">
-        <!-- css show all products-->
-        <link rel="stylesheet" href="../css/style_allProducts.css">
+        <!-- css show product detail-->
+        <link rel="stylesheet" href="../css/style_product.css">
     </head>
     <body>
         <header class="header">
@@ -20,21 +20,21 @@
                 <div class="logo">simpl.</div>
                 <input class="search" type="text" placeholder="Ingrese el nombre de un producto..."/>
                 <ul class="nav-menu">
-                    <li class="nav-menu-item"><a href="../view/index.html" class="nav-menu-link nav-link"><b>Index</b></a></li>
-                    <li class="nav-menu-item"><a href="../view/producto.html" class="nav-menu-link nav-link">Product</a></li>
+                    <li class="nav-menu-item"><a href="../view/index.html" class="nav-menu-link nav-link">Index</a></li>
+                    <li class="nav-menu-item"><a href="../view/producto.html" class="nav-menu-link nav-link"><b>Product</b></a></li>
                     <li class="nav-menu-item"><a href="../view/cart.html" class="nav-menu-link nav-link">Cart</a></li>
                     <li class="nav-menu-item"><a href="../view/config.html" class="nav-menu-link nav-link">Config</a></li>
                 </ul>
             </nav>
         </header>
         <main> 
-            <section id="root">
+            <section id="root-product">
             <!-- SPA: Renderiza cuando se carga la pagina -->
             </section>
         </main>
-        <script type="module" src="../js/init.js"></script>
-        <script type="module" src="../js/services/nav.js"></script>
-
+        
+        <!-- js -->
+        <script type="module" src="../js/initProduct.js"></script>
         <footer>
             <ul class="footer">
                 <li class="footer-menu-link">simpl.®</li>
@@ -44,6 +44,5 @@
                 <li class="footer-menu-link"><a class="footer-link" href="mailto:simpl@gmail.com">Contact us</a></li>
             </ul>
         </footer>
-        <script src="../js/services/nav.js"></script>
     </body>
 </html>

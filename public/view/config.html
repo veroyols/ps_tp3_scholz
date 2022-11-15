@@ -7,8 +7,13 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="../css/style_nav_footer.css">
         <link rel="shortcut icon" href="../img/favicon.png"> 
+        <!-- css template-->
+        <link rel="stylesheet" href="../css/normalize.css">
+        <link rel="stylesheet" href="../css/style_nav_footer.css">
+        <!-- css show all orders-->
+        <link rel="stylesheet" href="../css/style_order.css">
+
     </head>
     <body>
         <header class="header">
@@ -17,21 +22,20 @@
                 <input class="search" type="text" placeholder="Ingrese el nombre de un producto..."/>
                 <ul class="nav-menu">
                     <li class="nav-menu-item"><a href="../view/index.html" class="nav-menu-link nav-link">Index</a></li>
-                    <li class="nav-menu-item"><a href="#" class="nav-menu-link nav-link">Search</a></li>
+                    <li class="nav-menu-item"><a href="../view/producto.html" class="nav-menu-link nav-link">Product</a></li>
                     <li class="nav-menu-item"><a href="../view/cart.html" class="nav-menu-link nav-link">Cart</a></li>
-                    <li class="nav-menu-item"><a href="../view/config.html" class="nav-menu-link nav-link">Config</a></li>
+                    <li class="nav-menu-item"><a href="../view/config.html" class="nav-menu-link nav-link"><b>Config</b></a></li>
                 </ul>
             </nav>
         </header>
-        
         <main> 
-            <h2>CONFIG</h2>
-            <section id="root">
-            <!-- SPA: Renderiza cuando se carga la pagina -->
-            </section>
-        </main>
+            <section id="root-order">
+                <!-- SPA: Renderiza cuando se carga la pagina -->
+                </section>
+            </main>
         
-        <script type="module" src="../js/container/user.js"></script>
+        <!-- js -->
+        <script type="module" src="../js/initConfig.js"></script>
         <footer>
             <ul class="footer">
                 <li class="footer-menu-link">simpl.®</li>

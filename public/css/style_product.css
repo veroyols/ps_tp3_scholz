@@ -1,13 +1,21 @@
-.windowProduct{ /*contenedor*/
+#root-product{ /*contenedor*/
     position:fixed;
-    top: 160px;
-    
+    top: 160px;    
     height: 780px;
     width: 1870px;
-
     border: 3px solid #d8381c;
-    
 }
-.showProduct{ /*producto*/
-    
+.detail-product {
+    display: grid;
+    grid-template-columns: 1fr 1fr;   
+    margin: 25px 80px;
+}
+.product-img {
+   height: 700px;
+}
+.product-description{
+    font-size: 30px;
+}
+p {
+    padding: 50px;
 }
